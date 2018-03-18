@@ -1,0 +1,90 @@
+.wrap{
+	margin: 0 auto;
+	width: 1180px;
+	height: auto;
+	padding: 0px;
+}
+.first{
+	background-color: powderblue;
+	width: 230px;
+	height: 300px;
+	display: inline-block;
+}
+
+.second{
+	background-color: pink;
+	width: 230px;
+	height: 300px;
+	display: inline-block;
+}
+
+.enemy_wrap{
+	position: absolute;
+	margin: 0 auto;
+	width: 980px;
+	top:140px;
+	left:140px;
+/*	border: 3px red solid;
+*/}
+.enemy{
+	background-color: black;
+	width: 230px;
+	height: 300px;
+	display: inline-block;
+	position: relative;
+
+}
+
+.hostage_wrap{
+	position: absolute;
+	margin: 0 auto;
+	width: 680px;
+/*	border: 1px green solid;
+*/	top:140px;
+	left:120px;
+}
+
+.hostage{
+	z-index: 2;
+	background-color: beige;
+	width: 220px;
+	height: 300px;
+	display: inline-block;
+	position: relative;
+}
+
+.victim_wrap{
+	position: absolute;
+	margin-top: 0 auto;
+	width: 550px;
+	top:140px;
+	left:120px;
+
+}
+
+.victim{
+	z-index: 3;
+	background-color: grey;
+	width: 210px;
+	height: 300px;
+	display: inline-block;
+	position: relative;
+}
+
+.treasure_wrap{
+	z-index: 4;
+	position: absolute;
+	margin: 0 auto;
+/*	border:2px red solid;*/
+	top:40px;
+	left:110px;
+}
+
+.treasure{
+	background-color: rgb(255, 215, 0);
+	position: relative;
+	width: 210px;
+	height: 210px;
+}
+
+
